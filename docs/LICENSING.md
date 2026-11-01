@@ -7,11 +7,12 @@ promotional code.
 > blocked. Closing, reducing, stops, targets, FLATTEN and EMERGENCY EXIT always work, whatever the license says.
 
 The header of Execution Cockpit shows a small **license chip** (its tooltip says what your license is and when it
-ends) and an **Account** button that opens the **License window**.
+ends). **Click the chip to open the License window.** The button beside it (**Activate** while there is no license,
+later **Account** or **Renew**) opens the licensing website in your browser.
 
 ## Option A: free 7-day trial (no account needed)
 
-1. Start Execution Cockpit and click **Account** to open the License window.
+1. Start Execution Cockpit and click the **license chip** (it reads **NO LICENSE**) to open the License window.
 2. Click **Start free trial on this computer**.
 3. The license chip now shows the trial. Hover over it to see when the trial ends.
 
@@ -26,10 +27,12 @@ If you received a promotional code (for example as a reviewer or tester):
 1. In the License window click **Open my account**. The preview licensing website opens. It calls itself
    *Staging*: that is this preview's licensing service. Its note that licenses "do not activate the released app"
    means the later commercial release; trials and promotional codes from it work with this Public Preview.
-2. Create an account with your e-mail address and a password, then confirm your e-mail address. If the website
-   says automatic e-mail is not available, follow the instructions it shows.
-3. Enter your promotional code on the website. It adds the time stated with the code.
-4. On the website open **Overview → your license → activation key** and copy the key.
+2. **Create account** with your e-mail address and a password of at least 12 characters, then confirm your e-mail
+   address. During the preview, confirmation is done by hand: your dashboard shows the support address to
+   e-mail from the same address, and you receive a confirmation link to open.
+3. Sign in and click **Start free 7-day trial** on the website. Your **activation key** (`ECL-…`) is shown once:
+   copy it (**New activation key** issues a new one if you lose it).
+4. Under **Promotional code**, enter your code and click **Redeem**. It adds the time stated with the code.
 5. In the License window paste the key and click **Activate**.
 
 **Check now** asks the service for your current license at once.
