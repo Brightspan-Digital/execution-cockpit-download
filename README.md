@@ -2,18 +2,19 @@
 
 **Fast, consistent order entry and trade management for Interactive Brokers TWS and IB Gateway on Windows.**
 
-> **0.5.0 Public Preview, for evaluation and free testing**, not the commercial release. **No payment is required:**
+> **0.5.1 Public Preview, for evaluation and free testing**, not the commercial release. **No payment is required:**
 > use the free 7-day trial or a promotional code. The preview takes no payments: **never send real Bitcoin, USDT or
 > any other money.**
 
 ## Download
 
-### [Download Execution Cockpit 0.5.0 for Windows (39.2 MB)](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/download/v0.5.0-preview/ExecutionCockpit-0.5.0-staging-Setup.exe)
+### [Download Execution Cockpit 0.5.1 for Windows (39.2 MB)](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/download/v0.5.1-preview/ExecutionCockpit-0.5.1-staging-Setup.exe)
 
-* File: `ExecutionCockpit-0.5.0-staging-Setup.exe`, 39,176,762 bytes
-* SHA-256: `ec3a309a1402e86312ace37a938551f63b5e16a4ca65511363cb6cbada95b60a`
+* File: `ExecutionCockpit-0.5.1-staging-Setup.exe`, 39,172,327 bytes
+* SHA-256: `c9a2ea03b979c2f0e3c0cdd88bcf67d469fa1e6312f71fc93079de5c862d9646`
   ([how to check it](docs/INSTALL.md#2-check-the-download-recommended))
-* Release notes, checksum file and User Guide: [release page](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/tag/v0.5.0-preview)
+* Release notes, checksum file and User Guide: [release page](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/tag/v0.5.1-preview)
+* Updating from 0.5.0: install 0.5.1 over it. Your settings, safety records and license are kept.
 
 Windows 10 or 11 (64-bit) · no administrator rights · no Python or other tools needed · works with your own
 Interactive Brokers account through TWS or IB Gateway on the same computer.
@@ -41,12 +42,12 @@ a position. Closing, stops, targets, FLATTEN and EMERGENCY EXIT always work.
 
 * [Installation](docs/INSTALL.md)
 * [Licensing and activation](docs/LICENSING.md)
-* [Release notes 0.5.0](docs/RELEASE-NOTES.md)
+* [Release notes 0.5.1](docs/RELEASE-NOTES.md)
 * [Support](docs/SUPPORT.md)
 * [Friend testing checklist](docs/TESTER-CHECKLIST.md)
 * [License Agreement](docs/LICENSE-AGREEMENT.md) (preliminary, pending professional legal review)
 * User Guide: installed with the program (Start menu → Execution Cockpit → User Guide), and on the
-  [release page](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/tag/v0.5.0-preview) as an HTML file.
+  [release page](https://github.com/Brightspan-Digital/execution-cockpit-download/releases/tag/v0.5.1-preview) as an HTML file.
 
 ## About this repository
 
