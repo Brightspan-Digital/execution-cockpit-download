@@ -11,14 +11,15 @@ Please note **OK** or **Problem** for each step, and take a screenshot of anythi
 |---|---|---|
 | 1 | Settings → System → About: note the Windows edition and version | Windows 10 or 11, 64-bit |
 | 2 | Optional: in Command Prompt, run `where python` | Ideally "Could not find files". The program must not need Python |
-| 3 | Download `ExecutionCockpit-0.5.0-staging-Setup.exe` from the link you were given | 39.2 MB file in Downloads; note any browser warning |
-| 4 | In PowerShell: `Get-FileHash "$env:USERPROFILE\Downloads\ExecutionCockpit-0.5.0-staging-Setup.exe"` | `EC3A309A1402E86312ACE37A938551F63B5E16A4CA65511363CB6CBADA95B60A` |
+| 3 | Download `ExecutionCockpit-0.5.1-staging-Setup.exe` from the link you were given | 39.2 MB file in Downloads; note any browser warning |
+| 4 | In PowerShell: `Get-FileHash "$env:USERPROFILE\Downloads\ExecutionCockpit-0.5.1-staging-Setup.exe"` | `C9A2EA03B979C2F0E3C0CDD88BCF67D469FA1E6312F71FC93079DE5C862D9646` |
 | 5 | Double-click the installer | "Windows protected your PC" is expected: **More info → Run anyway**. **No** administrator (UAC) prompt. Note any antivirus message |
 | 6 | On the **License Agreement** page, click **View License Agreement** | The complete agreement opens in your web browser. It does not open by itself before you click |
 | 7 | Back in the installer: try **Next** before ticking, then tick **I have read and accept the License Agreement** | **Next** stays greyed out until the box is ticked |
 | 8 | Continue with the defaults, finish with *Start Execution Cockpit* ticked | Installs into `%LOCALAPPDATA%\Programs\Execution Cockpit`; the program window opens within about 15 seconds; the User Guide opens in the browser |
 | 9 | Look in the Start menu and on the desktop | Folder **Execution Cockpit** with *Execution Cockpit*, *User Guide*, *Uninstall Execution Cockpit*; a desktop shortcut |
 | 10 | In the program, click the license chip (**NO LICENSE**) | The License window opens and says there is no license yet. The **Activate** button beside the chip opens the licensing website |
+| 10a | In the License window, type `ECP-AAAAA-BBBBB-CCCCC` in the activation key box and click **Activate** | A note says this is a promotional code, redeemed on the website, with an **Open Billing to redeem it** button. Nothing else changes |
 | 11 | Close the program and start it again from the Start menu | It starts again normally |
 | 12 | Optional, only with IBKR **Paper** TWS running (API enabled, port 7497): choose Paper, click **Connect** | The status shows the API connected. No orders needed |
 | 13 | Optional: **Start free trial on this computer** in the License window | The chip shows a 7-day trial. This uses the one trial for that computer |
