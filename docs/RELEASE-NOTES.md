@@ -1,12 +1,12 @@
-# Execution Cockpit 0.5.0 — Public Preview
+# Execution Cockpit 0.5.1 — Public Preview
 
-Released 2026-10-31 · Windows 10 and 11 (64-bit)
+Released 2026-11-17 · Windows 10 and 11 (64-bit)
 
 | | |
 |---|---|
-| Installer | `ExecutionCockpit-0.5.0-staging-Setup.exe` |
-| Size | 39,176,762 bytes (39.2 MB) |
-| SHA-256 | `ec3a309a1402e86312ace37a938551f63b5e16a4ca65511363cb6cbada95b60a` |
+| Installer | `ExecutionCockpit-0.5.1-staging-Setup.exe` |
+| Size | 39,172,327 bytes (39.2 MB) |
+| SHA-256 | `c9a2ea03b979c2f0e3c0cdd88bcf67d469fa1e6312f71fc93079de5c862d9646` |
 
 > **This is a Public Preview for evaluation and free testing, not the commercial release.** Testing is free and
 > **no payment is required**: use the **free 7-day trial** or a **promotional code**. The preview takes no
@@ -24,6 +24,15 @@ trading more profitable. Every trading decision and its result are yours.
 
 **Your positions are always yours to manage.** A missing, expired or unreadable license only stops new entries and
 adding to a position. Closing, reducing, stops, targets, FLATTEN and EMERGENCY EXIT always work.
+
+## New in 0.5.1
+
+* **The License window recognises promotional codes.** A promotional code (`ECP-…`) pasted where the activation
+  key (`ECL-…`) belongs used to get "activation key not found". Now the window explains that promotional codes are
+  redeemed on the website (*Billing → Promotional code*) and offers **Open Billing to redeem it**. The code is never
+  sent from the program. See [Licensing and activation](LICENSING.md), option B.
+* Nothing else changed. If 0.5.0 works for you, updating is optional: install 0.5.1 over it, and your settings,
+  safety records and license are kept.
 
 ## New in 0.5
 
@@ -57,7 +66,7 @@ Problems or questions: [Support](SUPPORT.md).
 * **Not code-signed yet.** Windows SmartScreen shows "Windows protected your PC" on the first run. Check the
   SHA-256 first, then choose *More info → Run anyway* ([Install](INSTALL.md), step 3).
 * The License Agreement is preliminary; the final agreement comes before the commercial release.
-* The program's window title still reads "Build 0.4". The program is version 0.5.0 (see *Settings → Apps*).
+* The program's window title still reads "Build 0.4". The program is version 0.5.1 (see *Settings → Apps*).
 * Quote-priced orders, dollar or percent sizing of MARKET orders, and client-side protection need real-time
   market data for the symbol in your IBKR account.
 * Interactive Brokers triggers broker-side stop orders in regular trading hours only.
@@ -67,7 +76,7 @@ Problems or questions: [Support](SUPPORT.md).
 
 ## Build information
 
-Version 0.5.0, built 2026-11-01 00:51 UTC (build 4fb4719bb9b8) · publisher BrightSpan Digital · bundled Python 3.13.17, PySide6 6.10.1,
+Version 0.5.1, built 2026-11-17 12:14 UTC (build c3385522ce61) · publisher BrightSpan Digital · bundled Python 3.13.17, PySide6 6.10.1,
 ib_insync 0.9.86, numpy 2.1.3, cryptography 50.0.2. Third-party licenses are installed in the program's
 `licenses` folder.
 
