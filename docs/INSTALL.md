@@ -1,4 +1,4 @@
-# Installing Execution Cockpit 0.5.0 (Public Preview)
+# Installing Execution Cockpit 0.5.1 (Public Preview)
 
 About 5 minutes. No administrator rights, and nothing else to install: no Python, Git or other tools.
 
@@ -10,7 +10,7 @@ About 5 minutes. No administrator rights, and nothing else to install: no Python
 
 ## 1. Download
 
-Download `ExecutionCockpit-0.5.0-staging-Setup.exe` (39.2 MB) from the official Execution Cockpit release page on
+Download `ExecutionCockpit-0.5.1-staging-Setup.exe` (39.2 MB) from the official Execution Cockpit release page on
 GitHub, or from the link you were given. Do not run copies from anywhere else.
 
 ## 2. Check the download (recommended)
@@ -18,13 +18,13 @@ GitHub, or from the link you were given. Do not run copies from anywhere else.
 Open PowerShell (Start menu → type *PowerShell*) and run:
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\ExecutionCockpit-0.5.0-staging-Setup.exe"
+Get-FileHash "$env:USERPROFILE\Downloads\ExecutionCockpit-0.5.1-staging-Setup.exe"
 ```
 
 The `Hash` value must be exactly:
 
 ```
-EC3A309A1402E86312ACE37A938551F63B5E16A4CA65511363CB6CBADA95B60A
+C9A2EA03B979C2F0E3C0CDD88BCF67D469FA1E6312F71FC93079DE5C862D9646
 ```
 
 (PowerShell shows it in capitals; `SHA256SUMS.txt` has the same value in lower case.) If it differs, do not run
