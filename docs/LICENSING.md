@@ -20,6 +20,9 @@ There is one trial per computer. A trial ends exactly at its end time, with no g
 limits how many trials can be started from one internet connection per day: if it says the limit was reached,
 try again the next day.
 
+A trial started here has no website account, so a promotional code cannot be added to it. If you have a code,
+use option B instead.
+
 ## Option B: promotional code
 
 If you received a promotional code (for example as a reviewer or tester):
@@ -32,8 +35,12 @@ If you received a promotional code (for example as a reviewer or tester):
    e-mail from the same address, and you receive a confirmation link to open.
 3. Sign in and click **Start free 7-day trial** on the website. Your **activation key** (`ECL-…`) is shown once:
    copy it (**New activation key** issues a new one if you lose it).
-4. Under **Promotional code**, enter your code and click **Redeem**. It adds the time stated with the code.
-5. In the License window paste the key and click **Activate**.
+4. Under **Billing → Promotional code**, enter your code and click **Redeem**. It adds the time stated with the
+   code.
+5. In the License window paste the **activation key** (`ECL-…`) and click **Activate**.
+
+Promotional codes start with `ECP-` and are entered **only on the website**. If you paste one into the License
+window, Execution Cockpit says so and offers **Open Billing to redeem it**. The code is never sent from the program.
 
 **Check now** asks the service for your current license at once.
 
